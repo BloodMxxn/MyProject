@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
-    <base href="/MyProject/" />
     <meta name="description" content="Description..." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#03a9f4" />
@@ -24,13 +22,13 @@
     <meta property="og:url" content="https://your-app.com" />
     <meta property="og:image" content="" />
 
-    <link rel="manifest" href="/manifest.json" />
-    <link rel="stylesheet" href="/css/native-like-experience.css" />
+    <link rel="manifest" href="/MyProject/manifest.json" />
+    <link rel="stylesheet" href="/MyProject/css/native-like-experience.css" />
     <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous"></script>
 
     <!-- Apple touch icon -->
-    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon_120.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon_180.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/MyProject/icons/apple-touch-icon_120.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/MyProject/icons/apple-touch-icon_180.png" />
   </head>
   <body style="margin: 0">
     <header
@@ -50,7 +48,7 @@
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
-          navigator.serviceWorker.register("/serviceWorker.js").then((registration) => {
+          navigator.serviceWorker.register("/MyProject/serviceWorker.js").then((registration) => {
             console.log("SW registration successful");
           });
         });
