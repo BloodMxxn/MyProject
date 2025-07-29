@@ -8,6 +8,10 @@
   "orientation": "portrait",
   "scope": "/MyProject/",
   "start_url": "/MyProject/",
+  "id": "myapp77227722",
+  "dir": "ltr",
+  "lang": "en",
+  "display_override": ["fullscreen", "window-controls-overlay"],
   "icons": [
     {
       "src": "/MyProject/icons/icon_192.png",
